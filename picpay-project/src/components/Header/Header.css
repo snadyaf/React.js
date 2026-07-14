@@ -1,0 +1,18 @@
+header{
+    display: flex;
+}
+
+img{
+    width: 123px;
+    height: 40px;
+}
+
+.nav-Header{
+    justify-content: space-between;
+    cursor: pointer;
+    
+}
+
+#btnPesquisa{
+    border-radius: 50%;
+}
