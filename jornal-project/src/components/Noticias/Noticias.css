@@ -1,0 +1,13 @@
+.bodyNoticia{
+    display: flex;
+}
+
+img {
+    height: 480px;
+    width: 480px;
+    justify-content: flex-start;
+}
+
+p{
+    color: black;
+}
