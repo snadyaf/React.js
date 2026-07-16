@@ -1,18 +1,56 @@
 header{
+    background-color: white;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    max-width: 1440px;
+    padding: 0 20px;
 }
 
 img{
-    width: 123px;
+    /*width: 123px;
     height: 40px;
+    gap: 15px; */
+    display: block;
+    max-width: none;
+    max-height: none;
+    width: auto;
+    height: auto;
 }
 
-.nav-Header{
-    justify-content: space-between;
+.btnAreaCliente{
+    background-color: #38b160;
+    transition: (0.15s ease);
+    border: 2px solid transparent;
+    color: black;
+    border-radius: 100px;
+    padding: 14px 24px 11px;
     cursor: pointer;
-    
+    text-decoration: none;
+    text-overflow: ellipsis;
 }
 
-#btnPesquisa{
-    border-radius: 50%;
+.btnAbrirConta{
+    background-color: #e6e6e6;
+    transition: (0.15s ease);
+    border: 2px solid transparent;
+    color: black;
+    border-radius: 100px;
+    padding: 14px 24px 11px;
+    cursor: pointer;
+    text-decoration: none;
+    text-overflow: ellipsis;
 }
+
+#btnPesquisa, #btnMenu {
+    width: 32px;
+    height: 32px;
+    border: none;
+    border-radius: 40px;
+    background-color: #e6e6e6;
+    cursor: pointer;
+}
+
+
+
