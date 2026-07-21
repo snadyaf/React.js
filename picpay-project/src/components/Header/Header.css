@@ -1,46 +1,70 @@
 header{
-    background-color: white;
+    background-color: rgb(247, 246, 246);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: auto;
+    margin-top: 0px;
     max-width: 1440px;
     padding: 0 20px;
+    height: 80px;
 }
 
-img{
-    /*width: 123px;
+#imgLogo{
+    
+    width: 123px;
     height: 40px;
-    gap: 15px; */
-    display: block;
-    max-width: none;
-    max-height: none;
-    width: auto;
-    height: auto;
 }
 
-.btnAreaCliente{
+.btnNavegar {
+
+    display: flex;
+    gap: 10px;
+
+}
+
+#btnAreaCliente{
+    display: block;
+    order: -1;
+    max-height: 32px;
+    font-size: 14px;
+    width: fit-content;
+    background-color: #e6e6e6;
+    border: 2px solid transparent;
+    color: black;
+    border-radius: 100px;
+    padding: 5px 10px 12px;
+    cursor: pointer;
+    text-decoration: none;
+    text-overflow: ellipsis;
+                    
+}
+
+#btnAreaCliente:hover{
+
+    background-color: #dfdddd;
+}
+
+#btnAbrirConta{
+    
+    display: block;
+    order: -1;
+    max-height: 32px;
+    font-size: 14px;
+    width: fit-content;
     background-color: #38b160;
     transition: (0.15s ease);
     border: 2px solid transparent;
     color: black;
     border-radius: 100px;
-    padding: 14px 24px 11px;
+    padding: 5px 10px 12px;
     cursor: pointer;
     text-decoration: none;
     text-overflow: ellipsis;
 }
 
-.btnAbrirConta{
-    background-color: #e6e6e6;
-    transition: (0.15s ease);
-    border: 2px solid transparent;
-    color: black;
-    border-radius: 100px;
-    padding: 14px 24px 11px;
-    cursor: pointer;
-    text-decoration: none;
-    text-overflow: ellipsis;
+#btnAbrirConta:hover{
+
+    background-color: #1e7c3d;
 }
 
 #btnPesquisa, #btnMenu {
