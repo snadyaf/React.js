@@ -6,8 +6,8 @@ function MainPrincipal (){
 
         <>
 
-            
-            <div id='imgPrincipal'>
+                       
+               <div id='imgPrincipal'>
 
                 <div className = "btnMainPrincipal">
 
@@ -22,14 +22,13 @@ function MainPrincipal (){
                     <h2>Tudo o que você precisa para <br/>
                         resolver a sua vida financeira <br/>
                         em um só lugar.</h2>
-                        
                 </div>
 
                 <div>
                     <button className='btnAbrirContaPrincipal'>Abrir Conta</button>
                 </div>
 
-            </div>
+            </div>  
 
         </>
 

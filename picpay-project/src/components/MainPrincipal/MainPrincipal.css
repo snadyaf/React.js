@@ -1,14 +1,13 @@
+
 #imgPrincipal {
     width: 100%;
     min-height: 100vh;
-    background-image: url("https://picpay.com/pt-br/media_1640c26f085d1d4187a4490a8a885f91c562b95ea.webp?width=2000&format=webp&optimize=medium");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://picpay.com/pt-br/media_1640c26f085d1d4187a4490a8a885f91c562b95ea.webp?width=2000&format=webp&optimize=medium");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     padding: 80px;
+    
 }
 
 h1{
@@ -16,7 +15,6 @@ h1{
     font-size: 40px;
     font-weight: 700;
     line-height: 1.1;
-    margin-top: 40px;
 }
 
 h2{
@@ -29,17 +27,19 @@ h2{
 
 .btnMainPrincipal{
 
+    display: flex;
     align-items: center;
     background: #2f4256;
     padding: 6px;
     border-radius: 999px;
     gap: 8px;
     box-shadow: 0 6px 20px rgba(0,0,0,.25);
-    width: fit-content;
-    margin: 40px auto;
+    width: min-content;
+    margin-top: 40px;
+    margin-left: 50%;
 }
 
-.btnMainPrincipal button {
+ .btnMainPrincipal button {
 
     border: none;
     background: transparent;
@@ -50,7 +50,7 @@ h2{
     border-radius: 999px;
     cursor: pointer;
     transition: .3s;
-}
+} 
 
 .btnMainPrincipal button.active{
     background: #3CBF5B;
@@ -59,7 +59,7 @@ h2{
 
 .btnMainPrincipal button:not(.active):hover{
     background: rgba(255,255,255,.08);
-}
+} 
 
 .btnAbrirContaPrincipal{
     
