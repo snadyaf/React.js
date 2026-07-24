@@ -1,12 +1,11 @@
 
 #imgPrincipal {
-    width: 100%;
-    min-height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://picpay.com/pt-br/media_1640c26f085d1d4187a4490a8a885f91c562b95ea.webp?width=2000&format=webp&optimize=medium");
-    background-size: cover;
+    background-size: 100vw;
     background-position: center;
     background-repeat: no-repeat;
     padding: 80px;
+    
     
 }
 
@@ -28,23 +27,23 @@ h2{
 .btnMainPrincipal{
 
     display: flex;
-    align-items: center;
-    background: #2f4256;
-    padding: 6px;
-    border-radius: 999px;
-    gap: 8px;
-    box-shadow: 0 6px 20px rgba(0,0,0,.25);
+    position: absolute;
+    background: rgba(255,255,255,.08);
     width: min-content;
-    margin-top: 40px;
-    margin-left: 50%;
+    top: 120px;
+    left: 50%;
+    white-space: nowrap;
+    border-radius: 999px;
+    transform: translateX(-50%);
+    outline: 2px solid rgba(0, 0, 0, 0.3);
 }
 
- .btnMainPrincipal button {
+ .btnParaVoce {
 
     border: none;
     background: transparent;
-    color: white;
-    font-size: 22px;
+    color: rgb(10, 10, 10);
+    font-size: 16px;
     font-weight: 700;
     padding: 16px 24px;
     border-radius: 999px;
@@ -52,20 +51,20 @@ h2{
     transition: .3s;
 } 
 
-.btnMainPrincipal button.active{
+ .btnParaVoce.active{
     background: #3CBF5B;
     color: black;
 }
 
-.btnMainPrincipal button:not(.active):hover{
-    background: rgba(255,255,255,.08);
-} 
+.btnParaVoce:not(.active){ 
+    background: transparent;
+}
 
 .btnAbrirContaPrincipal{
     
     background: transparent;
     color: rgb(253, 251, 251);
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
     padding: 16px 24px;
     border-radius: 999px;

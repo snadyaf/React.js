@@ -11,8 +11,8 @@ function MainPrincipal (){
 
                 <div className = "btnMainPrincipal">
 
-                    <button className ="active">Para você</button>
-                    <button>Para sua empresa</button>
+                    <button className ="btnParaVoce active">Para você</button>
+                    <button className = "btnParaVoce">Para sua empresa</button>
 
                 </div>
 
