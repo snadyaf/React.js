@@ -1,15 +1,83 @@
 
-#imgPrincipal {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://picpay.com/pt-br/media_1640c26f085d1d4187a4490a8a885f91c562b95ea.webp?width=2000&format=webp&optimize=medium");
-    background-size: 100vw;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 80px;
-    
-    
+#secaoPrincipal {
+    font-family: 'Manrope', sans-serif;
+    position: relative;
+    overflow: hidden;
+    height: 530px;
+    display: flex;
+    align-items: center;
+}
+
+#secaoPrincipal::after{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4));
+    z-index:1;
+}
+
+.imgPrincipal {
+
+    position:absolute;
+    inset:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    object-position: 70% center;
+}
+
+.btnMainPrincipal{
+
+    display: flex;
+    position: absolute;
+    background: #1F2D3DCC;
+    width: min-content;
+    top: 40px;
+    left: 50%;
+    white-space: nowrap;
+    border-radius: 999px;
+    transform: translateX(-50%);
+    outline: 2px solid rgba(0, 0, 0, 0.3);
+    z-index:2;
+}
+
+ .btnParaVoce {
+
+    border: none;
+    border-color: transparent;
+    color: rgb(10, 10, 10);
+    font-size: 16px;
+    font-weight: 700;
+    padding: 16px 24px;
+    border-radius: 999px;
+    transition: .3s;
+} 
+
+ .btnParaVoce.active{
+    background: #38b160;
+    color: black;
+}
+
+.btnParaVoce:not(.active){ 
+    background: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+#textPrincipal{
+
+    position: relative;
+    z-index: 2;
+    margin-top: 130px;
+    margin-left: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
 }
 
 h1{
+    margin: 0;
     color: white;
     font-size: 40px;
     font-weight: 700;
@@ -17,57 +85,23 @@ h1{
 }
 
 h2{
+    margin: 0;
     color: white;
     font-size: 24px;
     font-weight: 400;
     line-height: 1.5;
-    margin-top: 24px;
-}
-
-.btnMainPrincipal{
-
-    display: flex;
-    position: absolute;
-    background: rgba(255,255,255,.08);
-    width: min-content;
-    top: 120px;
-    left: 50%;
-    white-space: nowrap;
-    border-radius: 999px;
-    transform: translateX(-50%);
-    outline: 2px solid rgba(0, 0, 0, 0.3);
-}
-
- .btnParaVoce {
-
-    border: none;
-    background: transparent;
-    color: rgb(10, 10, 10);
-    font-size: 16px;
-    font-weight: 700;
-    padding: 16px 24px;
-    border-radius: 999px;
-    cursor: pointer;
-    transition: .3s;
-} 
-
- .btnParaVoce.active{
-    background: #3CBF5B;
-    color: black;
-}
-
-.btnParaVoce:not(.active){ 
-    background: transparent;
 }
 
 .btnAbrirContaPrincipal{
-    
+    margin-top: 100px;
+    margin-bottom: 80px;
     background: transparent;
-    color: rgb(253, 251, 251);
+    color: white;
     font-size: 16px;
     font-weight: 700;
     padding: 16px 24px;
     border-radius: 999px;
+    border-color: white;
     cursor: pointer;
     transition: .3s;
 

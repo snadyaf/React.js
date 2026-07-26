@@ -1,0 +1,64 @@
+#telaServicos{
+    background-color: white;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+#textServicos{
+    font-size: 40px;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+.cards{
+    display:flex;
+    gap:24px;
+    flex-wrap:wrap;
+    margin-top:40px;
+}
+
+.card{
+    flex:1;
+    min-width:260px;
+    min-height:224px;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    padding:24px;
+    gap:16px;
+    background:#e6e6e6;
+    border-radius:24px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    background-color: #cfcece;
+}
+
+.icone{
+    font-size:42px;
+    color:#080808;
+}
+
+.card h3{
+    font-size: 30px;
+    font-weight: 600;
+    color:#080808;    
+    font-style: bold;
+}
+
+.card p{
+    font-size: 16px;
+    color:#080808;
+}
+
+#textMais{
+    font-size: 50px;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 40px;
+    margin-left: 50px;
+}
