@@ -19,10 +19,13 @@ function MainServices({servicos}) {
             </div>
         ))}
 
-      </div>
-
+      </div>  
         
-      <h1 id="textMais">Mais de 68 milhões de brasileiros escolhem PicPay todos os dias</h1>
+      <h1 id="textMais">Mais de  <br /> 68 milhões de  <br /> brasileiros <br /> escolhem PicPay  <br />todos os dias</h1>
+
+      <div id="imgcards">
+        <img src="https://picpay.com/pt-br/media_13ebcbd46cd57276eb74cf059cf052cc44e06aedd.webp?width=2000&format=webply&optimize=medium" alt="imagemcards" />
+      </div> 
 
     </div>
   );

@@ -5,7 +5,7 @@ function Header (){
     return (
 
         <>
-            <header>
+            <header className="menu">
                 
                 <img id='imgLogo' src= "https://picpay.com/fragments/pt-br/pf/media_13996f8efd712b02b99ff6fc15e8750f498e63e37.webp?width=2000&format=webply&optimize=medium" alt="picpay logo"/>
                    
