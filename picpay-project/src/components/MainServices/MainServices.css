@@ -1,23 +1,22 @@
-#telaServicos{
+.telaServicos{
     font-family: 'Manrope', sans-serif;
     background-color: white;
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
+    padding: 60px 50px;
 }
 
-#textServicos{
+.textServicos{
     font-size: 40px;
     font-weight: 600;
-    color: #000000;
-    margin-top: 60px;
-    margin-left: 50px;
+    color: #000;
+    margin-bottom: 40px;
 }
 
 .cards{
     display:grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns:repeat(4,1fr);
     gap:24px;
-    margin-top:40px;
 }
 
 .card{
@@ -25,8 +24,8 @@
     display:flex;
     flex-direction:column;
     justify-content:flex-start;
-    padding:24px;
     gap:16px;
+    padding:24px;
     background:#e6e6e6;
     border-radius:24px;
     transition:.3s;
@@ -34,7 +33,7 @@
 
 .card:hover{
     transform:translateY(-5px);
-    background-color: #cfcece;
+    background:#cfcece;
 }
 
 .icone{
@@ -43,27 +42,59 @@
 }
 
 .card h3{
-    font-size: 30px;
-    font-weight: 600;
-    color:#080808;    
-    font-style: bold;
-}
-
-.card p{
-    font-size: 16px;
+    font-size:30px;
+    font-weight:600;
     color:#080808;
 }
 
-#textMais{
-    font-size: 50px;
-    font-weight: 600;
-    color: #000000;
-    margin-top: 40px;
-    margin-left: 50px;
+.card p{
+    font-size:16px;
+    color:#080808;
+    line-height:1.5;
 }
 
-#imgcards{
-    width: 1842px;
-    height: 1024px;
+.imgcards{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    position: relative;
+    gap: 70px;
 }
 
+.textMais{
+    font-size:50px;
+    font-weight:600;
+    color:#000;
+    margin-top:80px;
+    margin-bottom:48px;
+    line-height:1.1;
+}
+
+.imgcards img{
+    display: block;
+    width: 700px;
+    height:624px;
+    object-fit:cover;
+    border-radius:24px;
+    margin-top: 80px;
+}
+
+.cards_img{
+    background-color: transparent;
+    position: absolute;
+    right: 40px;
+    bottom: 45px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.cardsgrid{
+    
+    padding: 16px;
+    height: 200px;
+    width: 180px;
+    background-color: #38b160;
+    border-radius: 24px;
+
+} 
