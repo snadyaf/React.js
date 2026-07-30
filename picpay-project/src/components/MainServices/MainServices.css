@@ -37,7 +37,6 @@
 }
 
 .icone{
-    font-size:42px;
     color:#080808;
 }
 
@@ -45,56 +44,13 @@
     font-size:30px;
     font-weight:600;
     color:#080808;
+    margin-top: 10px;
 }
 
 .card p{
     font-size:16px;
     color:#080808;
     line-height:1.5;
+    margin-top: 10px;
 }
 
-.imgcards{
-    display: flex;
-    justify-content: space-between;
-    align-items:flex-start;
-    position: relative;
-    gap: 70px;
-}
-
-.textMais{
-    font-size:50px;
-    font-weight:600;
-    color:#000;
-    margin-top:80px;
-    margin-bottom:48px;
-    line-height:1.1;
-}
-
-.imgcards img{
-    display: block;
-    width: 700px;
-    height:624px;
-    object-fit:cover;
-    border-radius:24px;
-    margin-top: 80px;
-}
-
-.cards_img{
-    background-color: transparent;
-    position: absolute;
-    right: 40px;
-    bottom: 45px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 16px;
-}
-
-.cardsgrid{
-    
-    padding: 16px;
-    height: 200px;
-    width: 180px;
-    background-color: #38b160;
-    border-radius: 24px;
-
-} 

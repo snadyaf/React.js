@@ -3,6 +3,8 @@ import './App.css'
 import Header from './components/Header/Header.jsx'
 import MainPrincipal from './components/MainPrincipal/MainPrincipal.jsx'
 import MainServices from './components/MainServices/MainServices.jsx'
+import Beneficios from './components/Beneficios/Beneficios.jsx'
+import Cartoes from './components/Cartoes/Cartoes.jsx'
 import { CircleDollarSign, CreditCard, ArrowLeftRight, HandCoins, Shield, SmartphoneNfc, ChartColumn, MessageCircleMore } from "lucide-react";
 
 const servicos = [
@@ -28,21 +30,21 @@ const servicos = [
 
 const beneficio = [{ 
       icone: <Shield />,
-      nomevantagem: "Modo Seguro",
+      nomebeneficio: "Modo Seguro",
       descricao: "Proteção com múltiplas camadas de tecnologia."
 
     }, {
       icone: <SmartphoneNfc />,
-      nomevantagem: "A Conta das Contas",
+      nomebeneficio: "A Conta das Contas",
       descricao: "Conecte suas contas de outros bancos aqui."
 
     }, {
       icone: <ChartColumn />,
-      nomevantagem: "Assistente de Pagamentos",
+      nomebeneficio: "Assistente de Pagamentos",
       descricao: "Receba alertas e pague boletos em um só lugar."
     }, {
       icone: <MessageCircleMore />, 
-      nomevantagem: "Pix no Whatsapp",
+      nomebeneficio: "Pix no Whatsapp",
       descricao: "Faça Pix por áudio ou mensagem com PicPay."
     }
   
@@ -59,7 +61,8 @@ function App() {
     <Header/>
     <MainPrincipal/>
     <MainServices servicos={servicos}/>
-    <MainServices beneficios={beneficio}/>
+    <Beneficios beneficios={beneficio}/>
+    <Cartoes/>
 
     </>
   )
