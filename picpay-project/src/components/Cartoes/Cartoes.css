@@ -1,9 +1,61 @@
-.sectionCartoes {
-
+.tituloCartoes {
+    font-family: 'Manrope', sans-serif;
     background-color: black;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-    margin-top: 3rem;
     color: white;
+}
+
+.txtParaVoce {
+    margin-left: 80px;
+    gap: 30px;
+    font-size: 20px;
+}
+
+.txtAproveitar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.txtAproveitar h1 {
+    margin-left: 80px;
+    font-size: 50px;
+}
+
+.txtAproveitar h3 {
+    margin-right: 80px;
+    font-size: 20px;
+}
+
+.containerCards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+    gap: 15px;
+}
+
+.cardsCartoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    width: 400px;
+    height: 450px;
+    border: 1px solid #cfcece;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    gap: 10px;
+}
+
+.cardsCartoes ul{
+    list-style-type: disc;
+    padding-left: 40px;
+    text-align: left;
+}
+
+.imgCartao{
+    width: 200px;
+    height: 250px;
 }
