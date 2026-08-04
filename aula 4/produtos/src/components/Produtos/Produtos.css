@@ -1,0 +1,34 @@
+.containerCards{
+    display: flex;
+    width: 80%;
+    height: 100%;
+    margin-top: 30px;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.cardsProdutos{
+    gap:16px;
+    padding:24px;
+    background: white;
+    color: black;
+}
+
+.cardsProdutos:hover{
+    border: 1px solid black;
+}
+
+.cardsProdutos h4{
+    font-size:15px;
+    margin-top: 10px;
+}
+
+.cardsProdutos img{
+    width: 70%;
+    height: 70%;
+}
+
+.cardsProdutos p{
+    font-size:15px;
+    margin-top: 10px;
+}
