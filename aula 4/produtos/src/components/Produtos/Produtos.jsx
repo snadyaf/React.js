@@ -22,6 +22,8 @@ export default function Produtos() {
         fetchProducts()
     }, [])
 
+    const pesquisa = products.filter(product => product.category === 'jewelery', 'mens clothing');
+
     return (
 
         <div className="containerCards">
